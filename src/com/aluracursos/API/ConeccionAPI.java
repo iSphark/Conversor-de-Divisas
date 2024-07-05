@@ -28,6 +28,7 @@ public class ConeccionAPI {
             Gson gson = new GsonBuilder().setFieldNamingPolicy(FieldNamingPolicy.UPPER_CAMEL_CASE).create();
 
             DivisasConvertidas divisasConvertidas = gson.fromJson(json, DivisasConvertidas.class);
+            divisasConvertidas.setMonedasResultado(monedaResultado);
             System.out.println(divisasConvertidas);
 
             return divisasConvertidas.getResultado();

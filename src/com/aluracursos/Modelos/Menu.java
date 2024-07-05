@@ -24,7 +24,7 @@ public class Menu {
             System.out.println("* (11) Convertir Peso Argentino (ARS) -> Euro (EUR)          *");
             System.out.println("* (12) Convertir Euro(EUR) -> Peso Argentino (ARS)           *");
             System.out.println("* (13) Ver historial de las comverciones                     *");
-            System.out.println("* (14) ¡SALIR DE LA APLICAION!                               *");
+            System.out.println("* (14) ¡SALIR DE LA APLICACION!                              *");
             System.out.println("**************************************************************");
 
             try {

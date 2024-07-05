@@ -14,6 +14,11 @@ public class CambiosDivisas {
 
     public static void casos(int opcion) throws IOException, InterruptedException {
         double cantidad = valorACambiar();
+
+        if (cantidad < 0){
+            return;
+        }
+
         double resultado = 0;
         String monedaBase = "";
         String monedaResultado = "";
