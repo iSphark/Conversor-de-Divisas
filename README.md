@@ -41,6 +41,6 @@ Asu ves la aplicación cuenta con la utilizacion de la biblioteca **_Gson_** par
 
 ## Tecnologias utilizadas
 
--**_Leguaje de Programacion_*: JAVA.
--**_API_**: [ExchangeRate-API](https://www.exchangerate-api.com/).
--**_Libreria_**: [Gson](https://github.com/google/gson).
+- **_Leguaje de Programacion_*: JAVA.
+- **_API_**: [ExchangeRate-API](https://www.exchangerate-api.com/).
+- **_Libreria_**: [Gson](https://github.com/google/gson).
